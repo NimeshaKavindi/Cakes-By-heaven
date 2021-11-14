@@ -1,0 +1,162 @@
+.body{
+    margin: 0;
+    font-family:system-ui;
+}
+.hero{
+    background-image:url("345.jpeg");
+    height:60%;
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.title{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 135px;
+    font-variant: small-caps;
+    font-size: 120px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+.sticky{
+    position:relative;
+    top:0;
+    width:100%;
+   
+    
+}
+.main{
+    background-color:rgb(226, 36, 36);
+    text-align: center;
+    height: 100px
+}
+.main-ul{
+    margin:0;
+    padding: 0;
+    display: inline;
+}
+
+.main-ul:hover{
+    color:rgb(14, 13, 13);
+    text-decoration:#eef3ee;
+    
+
+}
+
+.main-ul li{
+    font-size: 20px;
+    list-style: none;
+    display:inline-block;
+    padding: 25px 25px 26px 25px;
+}
+.l-menu  {
+    text-decoration: none;
+    color: black;
+}
+.main-ul li hover{
+    background:#5b8c5a;
+    transform:scale(1.1);
+}
+.Search-bar{
+    border: lpx solid white;
+    border-radius: 30px;
+    background: white;
+    width:max-content;
+    display:inline-block;
+    margin: 8px;
+}
+.Search-bar hover{
+    box-shadow:0 0 10px 2px #eef3ee;
+    border: 1px solid #eef3ee;
+}
+.search-input{
+    width:250px;
+    border:none;
+    font-size:16px;
+    outline:none;
+    background: transparent;
+    margin:10px 0 0 10px;
+    
+}
+.variety{
+    margin:50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+.categories{
+    width:max-content;
+    margin: 25px;
+    border:1px solid #99253f;
+    border-radius: 0 0 50px 50px;
+    display:inline-block;
+}
+.categories hover{
+    box-shadow:0 010px 3px #99253f;
+}
+.item{
+    height:200px;
+    width:200px;
+    border-radius: 0 0 50px 50px;
+    padding:10px;
+}
+.item-title{
+    text-align:center;
+    padding:10px;
+    font-weight: bold;
+}
+a{
+    text-decoration:none;
+}
+.store{
+    background-image: url('hgdyt.jpg');
+
+}
+.footer{
+    background: rgba(0,0,0,0.5);
+    text-align:center;
+    padding:20px;
+}
+.navbar-icons img{
+    height: 30px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.navbar-icons {
+    margin-right: 40px;
+}
+.quick-links{
+    color: rgb(180, 240, 15);
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding:30px;
+    font-weight: 300;
+    color: yellow;
+}
+.l-links{
+    text-decoration: none;
+    color: rgb(247, 238, 238);
+}
+
+.l-links hover{
+    color: rgb(225, 229, 235);
+}
+.copyright{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin:15px;
+    color:violet;
+}
